@@ -2,7 +2,7 @@ package Day1;
 
 import java.util.*;
 
-public class Input_Output {
+public class Input_Output_Scanner_Class {
     public static void main(String args[]) {
         Scanner s = new Scanner(System.in);  //input from scanner class
         int n = s.nextInt();
