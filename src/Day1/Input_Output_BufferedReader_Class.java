@@ -10,7 +10,15 @@ public class Input_Output_BufferedReader_Class {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
         int a = Integer.parseInt(br.readLine());
-        System.out.print(str + " " + a);
+        System.out.println(str + " " + a);
+
+        // StringTokenizer using
+        System.out.println("Enter two value space separated");
+        StringTokenizer st = new StringTokenizer(br.readLine()); //45 5
+        int n1 = Integer.parseInt(st.nextToken());   //45
+        int n2 = Integer.parseInt(st.nextToken());   //5
+        int ans = n1 + n2;                             //45+5=50
+        System.out.println(n1 + " " + n2 + " " + ans);
 
 
     }
