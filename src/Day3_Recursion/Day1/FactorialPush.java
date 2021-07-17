@@ -1,6 +1,6 @@
 package Day3_Recursion.Day1;
 
-public class FactorialPuah {
+public class FactorialPush {
 
 	private static void fact(int n, int ans) {
 		// TODO Auto-generated method stub
