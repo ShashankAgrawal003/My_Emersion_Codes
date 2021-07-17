@@ -2,7 +2,7 @@ package Day2;
 
 import java.util.*;
 
-public class Main {
+public class LeftShift_RightShift_ByOneIndex {
     public static void main(String[] args) {
         int temp;
         int arr[] = {1, 2, 3, 4, 5, 6, 7};  // 2345671 as output required Right shift
