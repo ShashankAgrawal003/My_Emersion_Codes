@@ -9,12 +9,12 @@ public class FactorialPop {
 			return 1;
 		}
 		/*
-		int recAns = fact(n - 1); //faith - recursive call
+		int recAns = fact(n - 1); //faith - recursive call             //head recursion=pop
 		int meraKaam = recAns * n; //my work 
 		return meraKaam;
 		*/
 
-		return n * fact(n - 1);
+		return n * fact(n - 1);   //head recursion
 	}
 
 	public static void main(String[] args) {
