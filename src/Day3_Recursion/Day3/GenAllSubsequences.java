@@ -12,8 +12,8 @@ public class GenAllSubsequences {
 
 
 		char cc = inp.charAt(0);
-		gen(inp.substring(1), out);
-		gen(inp.substring(1), out + cc);
+		gen(inp.substring(1), out);  //ignored that element
+		gen(inp.substring(1), out + cc);  //added that i th element
 
 	}
 

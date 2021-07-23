@@ -15,7 +15,7 @@ public class AllOccurences {
 		if (arr[curr] == search) {
 			int[] recA = sol(arr, curr + 1, n, search, count + 1);
 			//modification
-			recA[count] = curr;
+			recA[count] = curr;   // curr is the index value..
 			return recA;
 		} else {
 			int[] recA = sol(arr, curr + 1, n, search, count);
@@ -28,10 +28,10 @@ public class AllOccurences {
 
 		int[] arr = {1, 2, 4, 2, 5, 2};
 		int n = 6;
-		int[] ans = sol(arr, 0, n, 7, 0);
+		int[] ans = sol(arr, 0, n, 2, 0);
 
 		for (int indices : ans) {
-			System.out.println(indices);
+			System.out.print(indices +" ");
 		}
 	}
 

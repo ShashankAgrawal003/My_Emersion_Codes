@@ -1,6 +1,6 @@
 package Day3_Recursion.Day2;
 
-public class ClimbingStairsTwo {
+public class ClimbingStairsTwo {  // in reverse direction
 
 	private static int ways(int n) {
 		// TODO Auto-generated method stub
