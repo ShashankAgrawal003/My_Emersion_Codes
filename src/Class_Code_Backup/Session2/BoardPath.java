@@ -1,15 +1,15 @@
-package Day3_Recursion.Day2;
+package Class_Code_Backup.Session2;
 
 public class BoardPath {
 
 	private static int ways(int curr, int dest) {
 		// TODO Auto-generated method stub
 
-		if (curr == dest) {
+		if(curr == dest) {
 			return 1;
 		}
-
-		if (curr > dest) {
+		
+		if(curr > dest) {
 			return 0;
 		}
 		int c1 = ways(curr + 1, dest);
@@ -18,10 +18,9 @@ public class BoardPath {
 		int c4 = ways(curr + 4, dest);
 		int c5 = ways(curr + 5, dest);
 		int c6 = ways(curr + 6, dest);
-
-		return c1 + c2 + c3 + c4 + c5 + c6;
+		
+		return c1 + c2 + c3 + c4 + c5 + c6 ;
 	}
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(ways(0, 10));

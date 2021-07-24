@@ -1,22 +1,21 @@
-package Day3_Recursion.Day1;
+package Class_Code_Backup.Session1;
 
-public class PrintInc {
+public class PrintDec {
 
-	private static void inc(int n) {
+	private static void dec(int n) {
 		// TODO Auto-generated method stub
-//pop
+        //push/build
 		if (n == 0) {
 			return;
 		}
-
-		inc(n - 1);//recursive work
 		System.out.println(n); // my work
+		dec(n - 1);// recursive work
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		inc(5);
+		dec(5);
 	}
 
 }

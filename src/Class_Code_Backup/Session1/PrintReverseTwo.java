@@ -1,17 +1,16 @@
-package Day3_Recursion.Day1;
+package Class_Code_Backup.Session1;
 
 public class PrintReverseTwo {
 
 	private static void reversee(int[] arr, int curr, int n) {
 		// TODO Auto-generated method stub
 
-		if (curr == n) {
+		if(curr == n) {
 			return;
 		}
 		reversee(arr, curr + 1, n); //king/head
 		System.out.println(arr[curr]);
 	}
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

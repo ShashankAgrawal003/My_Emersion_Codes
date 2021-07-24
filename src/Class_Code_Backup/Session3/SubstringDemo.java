@@ -1,4 +1,4 @@
-package Day3_Recursion.Day3;
+package Class_Code_Backup.Session3;
 
 public class SubstringDemo {
 
@@ -8,7 +8,7 @@ public class SubstringDemo {
 		String s = "coding";
 		System.out.println(s.substring(2));
 		System.out.println(s.substring(2, 5));
-
+		
 		int ci = 3;
 		System.out.println(s.substring(0, ci) + s.substring(ci + 1));
 	}
